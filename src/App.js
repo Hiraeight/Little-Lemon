@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Nav from './components/Nav'
-import CallToAction from './components/CallToAction'
+import Main from './components/Main';
 
 function App() {
   return (
     <>
     <Nav />
-    <CallToAction />
+    <Main />
     </>
   );
 }
