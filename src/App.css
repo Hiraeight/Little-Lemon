@@ -110,6 +110,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #e5b800;
+}
+
 .banner-img{
   position: absolute;
   right: 13%;
@@ -189,7 +193,7 @@ input, label{
 .menu-items{
   /* height: 400px; */
   width: 350px;
-  background: #a9c8be;
+  background: #edefee;
   border-radius: 8px;
 }
 
@@ -209,7 +213,7 @@ input, label{
   justify-content: space-between;
 }
 
-.orderbtn{
+.orderBtn{
   padding: 5px 12px;
   margin-bottom: 20px;
   font-size: 16px;
