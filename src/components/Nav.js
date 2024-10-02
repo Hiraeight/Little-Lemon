@@ -13,7 +13,7 @@ const Nav = () => {
             <a href='/' className='logo'>
                 <img src={logo} alt='little lemon logo' />
             </a>
-            
+
             {/*mobile view*/}
             <div className='menu-icon' onClick={toggleMenu}>
                 <div className='bar'></div>
