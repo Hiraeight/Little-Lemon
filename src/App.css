@@ -127,7 +127,6 @@ button:hover {
   border-radius: 20px;
 }
 
-
 form, .comfirm{
   padding: 10px 13%;
 }
@@ -157,6 +156,12 @@ input, label{
   border: none;
   border-radius: 4px;
 
+}
+
+.comfirm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .comfirm span{
