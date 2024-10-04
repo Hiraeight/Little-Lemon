@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import logo from '../images/Logo .svg'
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ const Nav = () => {
                     <a href='/'>Services</a>
                 </li>
                 <li>
-                    <a href='/'>Reservation</a>
+                    <Link to='/booking'>Reservation</Link>
                 </li>
                 <li>
                     <a href='/'>Order Online</a>

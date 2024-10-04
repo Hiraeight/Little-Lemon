@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import CTAimg from  '../images/restauranfood.jpg'
+import Headerimg from  '../images/restauranfood.jpg'
 
 const CallToAction = () => {
   return (
@@ -13,7 +13,7 @@ const CallToAction = () => {
           <Link to='/booking'><button aria-label='On Click'>Reserve a Table</button></Link>
         </div>
         <div className='banner-img'>
-          <img src={CTAimg} />
+          <img src={Headerimg} />
         </div>
       </section>
     </header>
