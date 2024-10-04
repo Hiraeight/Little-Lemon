@@ -218,6 +218,11 @@ input, label{
   justify-content: space-between;
 }
 
+.heading p {
+  color: #EE9972;
+  font-weight: 700;
+}
+
 .orderBtn{
   padding: 5px 12px;
   margin-bottom: 20px;
